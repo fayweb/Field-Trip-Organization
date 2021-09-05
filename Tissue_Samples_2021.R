@@ -40,4 +40,11 @@ Samples <- Samples %>%
          -label_need_theoretical, -label_need_reality, 
          -expired_labeled_Cryo, -expired_Labels)
 
-                
+#write.csv(Samples, "Tissue_Samples_2021_adj.csv")
+
+#Samples_min <- Samples %>% select(c(1:6))
+#write.csv(Samples_min, "Tissue_Samples.csv")
+
+  
+  
+  
