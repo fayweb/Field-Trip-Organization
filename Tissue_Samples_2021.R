@@ -19,9 +19,10 @@ Samples <- Samples %>%
                                need_2mL_tubes  > 0 ~ need_2mL_tubes,
                                need_15mL_tubes > 0 ~ need_15mL_tubes),
          need_to_print = case_when(label_need_reality >= 0 ~ label_need_reality),
-         need_to_rewrite = case_when( expired_Labels > 0 ~ expired_Labels,
-                                      expired_labeled_Cryo > 0 ~ expired_labeled_Cryo,
-                                      expired_labeled_Cryo > 0 | expired_Labels > 0 ~ (expired_labeled_Cryo + expired_Labels))) %>%
+         need_to_rewrite = case_when( expired_labeled_Cryo > 0 & expired_Labels > 0 ~ (expired_labeled_Cryo + expired_Labels),
+                                      expired_Labels > 0 ~ expired_Labels,
+                                      expired_labeled_Cryo > 0 ~ expired_labeled_Cryo
+                                      )) %>%
         select(Sample_Name,
          Label,
          Person,
@@ -37,5 +38,4 @@ Samples <- Samples %>%
          -expired_labeled_Cryo, -expired_Labels)
  
 
-  #,
   #Done = case_when(new_labeled_Cryo > 0 ~ (new_labeled_Cryo / Tube_Need))) 
