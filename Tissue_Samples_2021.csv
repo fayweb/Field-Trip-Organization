@@ -1,4 +1,4 @@
-Sample_Name,Label,Cryo_Tube,Tube_2mL,Tube_15mL,Person,RT_Formalin,Storage_4_K2Cr2O7,Storage_minus20_Alcohol,Storage_minus80,Non_mus_Prep,last_Sample_Label,new_labeled_Cryo,label_need_theoretical,label_need_reality,need_Cryo_tubes,need_2mL_tubes,need_15mL_tubes,expired_labeled_Cryo,new_Labels,expired_Labels
+Sample_Name,Label,Cryo_Tube,Tube_2mL,Tube_15mL,Person,RT_Formalin,Storage_4_K2Cr2O7,Storage_minus20_Alcohol,Storage_minus80,Non_mus_Prep,last_Sample_Label,already_labeled_Cryo_tube,label_need_theoretical,label_need_reality,need_Cryo_tubes,need_2mL_tubes,need_15mL_tubes,expired_labeled_Cryo,new_Labels,expired_Labels
 Saliva_on_tissue,SAL_,,,,Joelle,,,,,,,,,,,,,,,
 Salivary_Glands,SG_,TRUE,,,Joelle,,,,TRUE,0,857,,143,143,143,,,,,
 Spleen_and_LegMuscle_Jaroslav,SPL1_,,TRUE,,Jaroslav,,,TRUE,,0,857,,143,90,,143,,,53,
