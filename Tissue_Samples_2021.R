@@ -21,8 +21,7 @@ Samples <- Samples %>%
          need_to_print = case_when(label_need_reality >= 0 ~ label_need_reality),
          need_to_rewrite = case_when( expired_labeled_Cryo > 0 & expired_Labels > 0 ~ (expired_labeled_Cryo + expired_Labels),
                                       expired_Labels > 0 ~ expired_Labels,
-                                      expired_labeled_Cryo > 0 ~ expired_labeled_Cryo
-                                      )) %>%
+                                      expired_labeled_Cryo > 0 ~ expired_labeled_Cryo)) %>%
         select(Sample_Name,
          Label,
          Person,
@@ -41,9 +40,4 @@ Samples <- Samples %>%
          -label_need_theoretical, -label_need_reality, 
          -expired_labeled_Cryo, -expired_Labels)
 
-# filter out the rows we don't know sampling specifics for (at the moment)
-Samples <- Samples %>%
-  filter(!is.na(Storage_Temp))
-Samples[is.na(Samples)] <- 0
-
-
+                
