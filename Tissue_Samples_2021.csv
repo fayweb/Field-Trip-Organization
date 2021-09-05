@@ -21,7 +21,5 @@ Cecum Wall half1,CEWE_,,TRUE,,Emanuel,TRUE,,,,10,857,,153,82,,153,,,69,2
 Cecum Wall half2,CEWE_,TRUE,,,Emanuel,,,,TRUE,10,923,66,87,0,87,,,,,87
 Colon Content,COCE1_,TRUE,,,Emanuel,,,,TRUE,10,857,,153,153,153,,,,,
 Colon Content,COCE2_,TRUE,,,Emanuel,,,,TRUE,10,857,,153,72,72,,,81,,
-Colon Wall,COWE,TRUE,,,Emanuel,,,,TRUE,10,857,,153,153,153,,,,,
-Left Testis,,,,,,,,,,,,,,,,,,,,
-Right Testis,,,,,,,,,,,,,,,,,,,,
-Left Epididymis,,,,,,,,,,,,,,,,,,,,
+Colon Wall,COWE_,TRUE,,,Emanuel,,,,TRUE,10,857,,153,153,153,,,,,
+Testis/Ovaria,T/O_,TRUE,,,Jaroslav,,,,TRUE,0,857,,143,143,143,,,,,
