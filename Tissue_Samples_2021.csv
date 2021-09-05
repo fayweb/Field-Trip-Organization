@@ -10,7 +10,7 @@ Liver_Emanuel,LIV_,,TRUE,,Emanuel,,,TRUE,,0,857,,143,143,,143,,,,
 Mesentary,MES_,TRUE,,,Emanuel,,,,TRUE,0,923,66,77,77,77,,,,,
 Lungs,LUN_,TRUE,,,Joelle,,,,TRUE,0,923,66,77,72,77,,,,,5
 Feces_Cryo,FEC_,TRUE,,,Emanuel,,,,TRUE,10,920,63,90,90,90,,,,,
-Feces_Tube,FEC_,,,TRUE,Emanuel,,TRUE,,,10,857,,153,153,,,143,,,
+Feces_Tube,FEC_,,,TRUE,Emanuel,,TRUE,,,10,857,,153,153,,,153,,,
 Intestinal_Worms_Ethanol,WEOH_,,TRUE,,Emanuel,,,TRUE,,0,857,,143,0,,143,,,171,
 Intestinal_Worms_Formalin,WFOR_,,TRUE,,Emanuel,TRUE,,,,0,857,,143,101,,143,,,42,
 Small_Intestine_Content,SICE_,TRUE,,,Emanuel,,,,TRUE,0,857,,143,143,143,,,,,
