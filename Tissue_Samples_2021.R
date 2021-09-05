@@ -30,12 +30,20 @@ Samples <- Samples %>%
          Storage_Medium,
          Tube,
          Tube_Need,
-         need_to_print,
+         Non_mus_Prep,
+         last_Sample_Label,
+         already_labeled_Cryo_tube,
+         new_Labels,
          need_to_rewrite,
+         need_to_print,
          c(11:21),
          -need_Cryo_tubes, -need_2mL_tubes, -need_15mL_tubes,
          -label_need_theoretical, -label_need_reality, 
          -expired_labeled_Cryo, -expired_Labels)
- 
 
-  #Done = case_when(new_labeled_Cryo > 0 ~ (new_labeled_Cryo / Tube_Need))) 
+# filter out the rows we don't know sampling specifics for (at the moment)
+Samples <- Samples %>%
+  filter(!is.na(Storage_Temp))
+Samples[is.na(Samples)] <- 0
+
+
